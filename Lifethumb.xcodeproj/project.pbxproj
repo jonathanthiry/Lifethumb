@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9D1F801DB00FCA008655FD /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D1F7F1DB00FCA008655FD /* CategoryTableViewController.swift */; };
+		AB9D1F821DB15132008655FD /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D1F811DB15132008655FD /* FoodViewController.swift */; };
+		ABD7A1681DB251D0001DA367 /* FoodSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1671DB251D0001DA367 /* FoodSearchTableViewController.swift */; };
+		ABF665931DAF78A90071400F /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF665901DAF78A90071400F /* Food+CoreDataClass.swift */; };
+		ABF665941DAF78A90071400F /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF665911DAF78A90071400F /* Food+CoreDataProperties.swift */; };
+		ABF665971DAF79050071400F /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF665951DAF79050071400F /* Category+CoreDataClass.swift */; };
+		ABF665981DAF79050071400F /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF665961DAF79050071400F /* Category+CoreDataProperties.swift */; };
+		ABF6659B1DAF7FB30071400F /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6659A1DAF7FB30071400F /* FoodTableViewController.swift */; };
+		ABF6659D1DAF82200071400F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6659C1DAF82200071400F /* TabBarViewController.swift */; };
+		ABF7D0551DAEA6E200DDD0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D0541DAEA6E200DDD0EE /* AppDelegate.swift */; };
+		ABF7D05A1DAEA6E200DDD0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D0581DAEA6E200DDD0EE /* Main.storyboard */; };
+		ABF7D05C1DAEA6E200DDD0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D05B1DAEA6E200DDD0EE /* Assets.xcassets */; };
+		ABF7D05F1DAEA6E200DDD0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D05D1DAEA6E200DDD0EE /* LaunchScreen.storyboard */; };
+		ABF7D0691DAEA71200DDD0EE /* categoriesStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D0661DAEA71200DDD0EE /* categoriesStatic.json */; };
+		ABF7D06A1DAEA71200DDD0EE /* exercisesStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D0671DAEA71200DDD0EE /* exercisesStatic.json */; };
+		ABF7D06B1DAEA71200DDD0EE /* foodStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = ABF7D0681DAEA71200DDD0EE /* foodStatic.json */; };
+		ABF7D06F1DAEA75E00DDD0EE /* Lifethumb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D06D1DAEA75E00DDD0EE /* Lifethumb.xcdatamodeld */; };
+		ABF7D0761DAEB31600DDD0EE /* Exercise+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D0741DAEB31600DDD0EE /* Exercise+CoreDataClass.swift */; };
+		ABF7D0771DAEB31600DDD0EE /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D0751DAEB31600DDD0EE /* Exercise+CoreDataProperties.swift */; };
+		ABF7D07A1DAEB73400DDD0EE /* ExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D0791DAEB73400DDD0EE /* ExerciseTableViewController.swift */; };
+		ABF7D07C1DAEB8A000DDD0EE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7D07B1DAEB8A000DDD0EE /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB9D1F7F1DB00FCA008655FD /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		AB9D1F811DB15132008655FD /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		ABD7A1671DB251D0001DA367 /* FoodSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSearchTableViewController.swift; sourceTree = "<group>"; };
+		ABF665901DAF78A90071400F /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABF665911DAF78A90071400F /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABF665951DAF79050071400F /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABF665961DAF79050071400F /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABF6659A1DAF7FB30071400F /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		ABF6659C1DAF82200071400F /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		ABF7D0511DAEA6E200DDD0EE /* Lifethumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifethumb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF7D0541DAEA6E200DDD0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF7D0591DAEA6E200DDD0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF7D05B1DAEA6E200DDD0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF7D05E1DAEA6E200DDD0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF7D0601DAEA6E200DDD0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF7D0661DAEA71200DDD0EE /* categoriesStatic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoriesStatic.json; sourceTree = "<group>"; };
+		ABF7D0671DAEA71200DDD0EE /* exercisesStatic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercisesStatic.json; sourceTree = "<group>"; };
+		ABF7D0681DAEA71200DDD0EE /* foodStatic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodStatic.json; sourceTree = "<group>"; };
+		ABF7D06E1DAEA75E00DDD0EE /* Lifethumb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lifethumb.xcdatamodel; sourceTree = "<group>"; };
+		ABF7D0741DAEB31600DDD0EE /* Exercise+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABF7D0751DAEB31600DDD0EE /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABF7D0791DAEB73400DDD0EE /* ExerciseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewController.swift; sourceTree = "<group>"; };
+		ABF7D07B1DAEB8A000DDD0EE /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF7D04E1DAEA6E100DDD0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF665991DAF7D880071400F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6659C1DAF82200071400F /* TabBarViewController.swift */,
+				ABF7D0791DAEB73400DDD0EE /* ExerciseTableViewController.swift */,
+				ABF6659A1DAF7FB30071400F /* FoodTableViewController.swift */,
+				AB9D1F7F1DB00FCA008655FD /* CategoryTableViewController.swift */,
+				ABD7A1671DB251D0001DA367 /* FoodSearchTableViewController.swift */,
+				AB9D1F811DB15132008655FD /* FoodViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ABF7D0481DAEA6E100DDD0EE = {
+			isa = PBXGroup;
+			children = (
+				ABF7D0531DAEA6E200DDD0EE /* Lifethumb */,
+				ABF7D0521DAEA6E200DDD0EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF7D0521DAEA6E200DDD0EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7D0511DAEA6E200DDD0EE /* Lifethumb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF7D0531DAEA6E200DDD0EE /* Lifethumb */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7D0541DAEA6E200DDD0EE /* AppDelegate.swift */,
+				ABF7D07B1DAEB8A000DDD0EE /* DataManager.swift */,
+				ABF665991DAF7D880071400F /* ViewControllers */,
+				ABF7D0781DAEB6B800DDD0EE /* Models */,
+				ABF7D0581DAEA6E200DDD0EE /* Main.storyboard */,
+				ABF7D05B1DAEA6E200DDD0EE /* Assets.xcassets */,
+				ABF7D05D1DAEA6E200DDD0EE /* LaunchScreen.storyboard */,
+				ABF7D0601DAEA6E200DDD0EE /* Info.plist */,
+				ABF7D06D1DAEA75E00DDD0EE /* Lifethumb.xcdatamodeld */,
+				ABF7D06C1DAEA71900DDD0EE /* JSON */,
+			);
+			path = Lifethumb;
+			sourceTree = "<group>";
+		};
+		ABF7D06C1DAEA71900DDD0EE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				ABF7D0661DAEA71200DDD0EE /* categoriesStatic.json */,
+				ABF7D0671DAEA71200DDD0EE /* exercisesStatic.json */,
+				ABF7D0681DAEA71200DDD0EE /* foodStatic.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		ABF7D0781DAEB6B800DDD0EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABF665951DAF79050071400F /* Category+CoreDataClass.swift */,
+				ABF665961DAF79050071400F /* Category+CoreDataProperties.swift */,
+				ABF665901DAF78A90071400F /* Food+CoreDataClass.swift */,
+				ABF665911DAF78A90071400F /* Food+CoreDataProperties.swift */,
+				ABF7D0741DAEB31600DDD0EE /* Exercise+CoreDataClass.swift */,
+				ABF7D0751DAEB31600DDD0EE /* Exercise+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF7D0501DAEA6E100DDD0EE /* Lifethumb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF7D0631DAEA6E200DDD0EE /* Build configuration list for PBXNativeTarget "Lifethumb" */;
+			buildPhases = (
+				ABF7D04D1DAEA6E100DDD0EE /* Sources */,
+				ABF7D04E1DAEA6E100DDD0EE /* Frameworks */,
+				ABF7D04F1DAEA6E100DDD0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lifethumb;
+			productName = Lifethumb;
+			productReference = ABF7D0511DAEA6E200DDD0EE /* Lifethumb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF7D0491DAEA6E100DDD0EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jonathan Thiry";
+				TargetAttributes = {
+					ABF7D0501DAEA6E100DDD0EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FT2MJR45Z6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABF7D04C1DAEA6E100DDD0EE /* Build configuration list for PBXProject "Lifethumb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF7D0481DAEA6E100DDD0EE;
+			productRefGroup = ABF7D0521DAEA6E200DDD0EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF7D0501DAEA6E100DDD0EE /* Lifethumb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF7D04F1DAEA6E100DDD0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7D05F1DAEA6E200DDD0EE /* LaunchScreen.storyboard in Resources */,
+				ABF7D05C1DAEA6E200DDD0EE /* Assets.xcassets in Resources */,
+				ABF7D05A1DAEA6E200DDD0EE /* Main.storyboard in Resources */,
+				ABF7D06A1DAEA71200DDD0EE /* exercisesStatic.json in Resources */,
+				ABF7D0691DAEA71200DDD0EE /* categoriesStatic.json in Resources */,
+				ABF7D06B1DAEA71200DDD0EE /* foodStatic.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF7D04D1DAEA6E100DDD0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF6659B1DAF7FB30071400F /* FoodTableViewController.swift in Sources */,
+				ABF7D06F1DAEA75E00DDD0EE /* Lifethumb.xcdatamodeld in Sources */,
+				ABF7D07A1DAEB73400DDD0EE /* ExerciseTableViewController.swift in Sources */,
+				ABF665931DAF78A90071400F /* Food+CoreDataClass.swift in Sources */,
+				ABF6659D1DAF82200071400F /* TabBarViewController.swift in Sources */,
+				ABF7D0771DAEB31600DDD0EE /* Exercise+CoreDataProperties.swift in Sources */,
+				ABF7D0551DAEA6E200DDD0EE /* AppDelegate.swift in Sources */,
+				ABD7A1681DB251D0001DA367 /* FoodSearchTableViewController.swift in Sources */,
+				ABF7D07C1DAEB8A000DDD0EE /* DataManager.swift in Sources */,
+				AB9D1F821DB15132008655FD /* FoodViewController.swift in Sources */,
+				ABF7D0761DAEB31600DDD0EE /* Exercise+CoreDataClass.swift in Sources */,
+				ABF665981DAF79050071400F /* Category+CoreDataProperties.swift in Sources */,
+				ABF665971DAF79050071400F /* Category+CoreDataClass.swift in Sources */,
+				ABF665941DAF78A90071400F /* Food+CoreDataProperties.swift in Sources */,
+				AB9D1F801DB00FCA008655FD /* CategoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABF7D0581DAEA6E200DDD0EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF7D0591DAEA6E200DDD0EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF7D05D1DAEA6E200DDD0EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF7D05E1DAEA6E200DDD0EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF7D0611DAEA6E200DDD0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF7D0621DAEA6E200DDD0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF7D0641DAEA6E200DDD0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT2MJR45Z6;
+				INFOPLIST_FILE = Lifethumb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanthiry.Lifethumb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ABF7D0651DAEA6E200DDD0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT2MJR45Z6;
+				INFOPLIST_FILE = Lifethumb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathanthiry.Lifethumb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF7D04C1DAEA6E100DDD0EE /* Build configuration list for PBXProject "Lifethumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF7D0611DAEA6E200DDD0EE /* Debug */,
+				ABF7D0621DAEA6E200DDD0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF7D0631DAEA6E200DDD0EE /* Build configuration list for PBXNativeTarget "Lifethumb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF7D0641DAEA6E200DDD0EE /* Debug */,
+				ABF7D0651DAEA6E200DDD0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABF7D06D1DAEA75E00DDD0EE /* Lifethumb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABF7D06E1DAEA75E00DDD0EE /* Lifethumb.xcdatamodel */,
+			);
+			currentVersion = ABF7D06E1DAEA75E00DDD0EE /* Lifethumb.xcdatamodel */;
+			path = Lifethumb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABF7D0491DAEA6E100DDD0EE /* Project object */;
+}
